@@ -2,8 +2,8 @@ import os
 import subprocess
 
 # --- BẠN CHỈ CẦN ĐỔI THÔNG TIN Ở ĐÂY MỖI NGÀY HỌC ---
-ten_session = "Session_7"  # Đổi thành buổi học hôm nay (Ví dụ: Session_6, Session_7...)
-so_bai_tap = 6  # Số lượng bài tập muốn tạo tự động
+ten_session = "Session_8"  # Đổi thành buổi học hôm nay (Ví dụ: Session_6, Session_7...)
+so_bai_tap = 3  # Số lượng bài tập muốn tạo tự động
 # ---------------------------------------------------
 
 print(f"1. Dang kiem tra thu muc {ten_session}...")
