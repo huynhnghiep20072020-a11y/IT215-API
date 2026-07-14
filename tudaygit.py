@@ -2,7 +2,7 @@ import os
 import subprocess
 
 # --- BẠN CHỈ CẦN ĐỔI THÔNG TIN Ở ĐÂY MỖI NGÀY HỌC ---
-ten_session = "Session_14"  # Đổi thành buổi học hôm nay (Ví dụ: Session_6, Session_7...)
+ten_session = "Session_17"  # Đổi thành buổi học hôm nay (Ví dụ: Session_6, Session_7...)
 so_bai_tap = 2  # Số lượng bài tập muốn tạo tự động
 # ---------------------------------------------------
 
