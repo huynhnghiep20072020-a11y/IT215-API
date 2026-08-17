@@ -1,0 +1,1 @@
+SECRET_KEY=devconnect_super_secret_key_2026
