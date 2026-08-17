@@ -11,7 +11,7 @@ def run_tests():
 
     print("\n--- 2. Kiểm tra bắt lỗi (Validation) ---")
     c1_dup = requests.post(f"{BASE_URL}/auth/register", json={"username": "customer_1", "password": "password123"})
-    print("Đăng ký trùng lặp:", c1_dup.json()) 
+    print("Đăng ký trùng lặp:", c1_dup.json()) # Mong đợi: USER_ALREADY_EXISTS 409
 
     print("\n--- 3. Đăng nhập và Lấy Token ---")
     login_res = requests.post(f"{BASE_URL}/auth/login", json={"username": "customer_1", "password": "password123"})
